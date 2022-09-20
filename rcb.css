@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.radio{
+    background-image: url(/Images/radio-schaffer-187.jpg);
+    width:100%;
+    height: 750px;
+    background-size: 100% 100%;
+    display:flex;
+    background-color: transparent;
+    color:white;
+    letter-spacing: 0.17rem;
+  
+}
+
+.icon img{
+    width:280px;
+    height: 88px;
+    padding:30px 30px;
+    cursor:pointer;
+}
+.bar{
+    display:flex;
+    font-size: 16px;
+    column-gap: 20px;
+    font-weight:750;
+    margin-top:70px;
+    margin-left:500px;    
+   
+
+}
+.bar a:hover{
+    cursor:pointer;
+    color:rgba(229, 224, 224, 0.597);
+    background-color: transparent;
+}
+
+.sec-bar{
+    display:flex;
+   
+}
+.sec-bar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-bar img{
+    width:350px;
+    height: 350px;
+    cursor: pointer; 
+}
+
+.a,.b,.c,.d{
+    position: absolute;
+    color:whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+}
+.sec-bar2{
+    color:white;
+}
+.sec-bar2 img{
+      
+    height: 250px;
+    padding:60px 0 15px 160px;
+    cursor: pointer;
+}
+.art1{
+    display:flex;
+
+}
+.art1 img{
+    widht:100px;
+    height: 250px;
+    padding:60px 0 15px 160px;
+    
+}
+.art1 div{
+    padding: 60px 0px 0px 15px;
+}
+.art1 p{
+    padding-left:16px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.738);
+    max-width: 550px;
+}
+.sec-bar2 h5{
+    padding-left:15px;
+    color:rgba(255, 255, 255, 0.797)
+}
+.sec-bar2 h6{
+    padding-left: 15px;
+    color:rgba(255, 255, 255, 0.797)
+
+}
+ .text1{
+    padding:60px 0 0 15px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+ }
+ .text1 p{
+    position:absolute;
+ }
+ .art2{
+    display: flex;
+ }
+ .art2 div{
+    padding: 60px 0px 0px 15px;
+}
+.art2 p{
+    padding-left:16px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.738);
+    max-width: 550px;
+}
+ .art3{
+    display: flex;
+ }
+ .art3 div{
+    padding: 60px 0px 0px 15px;
+}
+.art3 p{
+    padding-left:16px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.738);
+    max-width: 550px;
+}      
+ .sec-bar3{
+    display: flex;
+   
+    height:400px;
+ }
+ .sec-bar3 img{
+    width: 345px;
+    height:auto;
+ }
+.sec-bar4{
+    height: 500px;
+  
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+ .sec-bar4 img{
+    width:192px;
+    padding-top: 80px;
+    padding-bottom:50px ;
+ }
+ .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .foot{
+    height:340px;
+    background-color: white;
+ }
+ .social{
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+    column-gap: 20px;
+    font-size: 38px;
+    cursor: pointer;
+ }
+ .social i:hover{
+    color:lightslategrey
+ }
+ .details{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 50px;
+ }
+ .r-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+ }
+ .l-side{
+    display: flex;
+    flex-direction: column;
+ }
+ .last{
+    margin-top: 25px;
+    margin-left: 500px;
+    letter-spacing: 0.12rem;
+ }
+ .foot a{
+    font-size: 14px;
+    color:rgba(0, 0, 0, 0.703);
+    cursor:pointer;
+ }
+ foot a:hover{
+    color:rgba(0, 0, 0, 0.818)
+ }
