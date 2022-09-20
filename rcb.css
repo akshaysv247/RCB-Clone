@@ -13,7 +13,7 @@ body{
     display: none;
 }
 .radio{
-    background-image: url(/Images/radio-schaffer-187.jpg);
+    background-image: url(Images/radio-schaffer-187.jpg);
     width:100%;
     height: 750px;
     background-size: 100% 100%;
